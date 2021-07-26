@@ -1,0 +1,224 @@
+{
+	"name": "Baseplate",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Common": {
+				"$path": "src/shared"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"Server": {
+				"$path": "src/server"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"Client": {
+					"$path": "src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"FilteringEnabled": true
+			},
+			"SpawnLocation": {
+				"$className": "SpawnLocation",
+				"$properties": {
+					"Position": [
+						0,
+						0.5,
+						0
+					],
+					"Anchored": true,
+					"Size": [
+						12,
+						1,
+						12
+					],
+					"Duration": 0,
+					"TopSurface": "Smooth",
+					"BottomSurface": "Smooth"
+				},
+				"Decal": {
+					"$className": "Decal",
+					"$properties": {
+						"Texture": "rbxasset://textures/SpawnLocation.png",
+						"Face": "Top"
+					}
+				}
+			},
+			"Baseplate": {
+				"$className": "Part",
+				"$properties": {
+					"Color": {
+						"Type": "Color3uint8",
+						"Value": [
+							91,
+							91,
+							91
+						]
+					},
+					"Position": [
+						0,
+						-8,
+						0
+					],
+					"Anchored": true,
+					"Locked": true,
+					"Size": [
+						2048,
+						16,
+						2048
+					],
+					"TopSurface": "Smooth",
+					"BottomSurface": "Smooth"
+				},
+				"Texture": {
+					"$className": "Texture",
+					"$properties": {
+						"Color3": [
+							0,
+							0,
+							0
+						],
+						"StudsPerTileU": 8,
+						"StudsPerTileV": 8,
+						"Texture": "rbxassetid://6372755229",
+						"Transparency": 0.8,
+						"Face": "Top"
+					}
+				}
+			}
+		},
+		"Lighting": {
+			"$className": "Lighting",
+			"$properties": {
+				"Ambient": {
+					"Type": "Color3uint8",
+					"Value": [
+						70,
+						70,
+						70
+					]
+				},
+				"Brightness": 3,
+				"ColorShift_Bottom": [
+					0,
+					0,
+					0
+				],
+				"ColorShift_Top": [
+					0,
+					0,
+					0
+				],
+				"EnvironmentDiffuseScale": 1,
+				"EnvironmentSpecularScale": 1,
+				"GlobalShadows": true,
+				"Outlines": false,
+				"OutdoorAmbient": {
+					"Type": "Color3uint8",
+					"Value": [
+						70,
+						70,
+						70
+					]
+				},
+				"ShadowSoftness": 0.2,
+				"Technology": "ShadowMap",
+				"ClockTime": 14.5,
+				"GeographicLatitude": 0,
+				"TimeOfDay": "14:30:00",
+				"Archivable": true,
+				"ExposureCompensation": 0
+			},
+			"Atmosphere": {
+				"$className": "Atmosphere",
+				"$properties": {
+					"Density": 0.3,
+					"Offset": 0.25,
+					"Archivable": true,
+					"Color": {
+						"Type": "Color3uint8",
+						"Value": [
+							199,
+							199,
+							199
+						]
+					},
+					"Decay": {
+						"Type": "Color3uint8",
+						"Value": [
+							106,
+							112,
+							125
+						]
+					},
+					"Glare": 0,
+					"Haze": 0
+				}
+			},
+			"Sky": {
+				"$className": "Sky",
+				"$properties": {
+					"CelestialBodiesShown": true,
+					"MoonAngularSize": 11,
+					"MoonTextureId": "rbxassetid://6444320592",
+					"SkyboxBk": "rbxassetid://6444884337",
+					"SkyboxDn": "rbxassetid://6444884785",
+					"SkyboxFt": "rbxassetid://6444884337",
+					"SkyboxLf": "rbxassetid://6444884337",
+					"SkyboxRt": "rbxassetid://6444884337",
+					"SkyboxUp": "rbxassetid://6412503613",
+					"StarCount": 3000,
+					"SunAngularSize": 11,
+					"SunTextureId": "rbxassetid://6196665106",
+					"Archivable": true
+				}
+			},
+			"Bloom": {
+				"$className": "BloomEffect",
+				"$properties": {
+					"Archivable": true,
+					"Enabled": true,
+					"Intensity": 1,
+					"Size": 24,
+					"Threshold": 2
+				}
+			},
+			"DepthOfField": {
+				"$className": "DepthOfFieldEffect",
+				"$properties": {
+					"Archivable": true,
+					"Enabled": false,
+					"FarIntensity": 0.1,
+					"FocusDistance": 0.05,
+					"InFocusRadius": 30,
+					"NearIntensity": 0.75
+				}
+			},
+			"SunRays": {
+				"$className": "SunRaysEffect",
+				"$properties": {
+					"Archivable": true,
+					"Enabled": true,
+					"Intensity": 0.01,
+					"Spread": 0.1
+				}
+			}
+		},
+		"SoundService": {
+			"$className": "SoundService",
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
